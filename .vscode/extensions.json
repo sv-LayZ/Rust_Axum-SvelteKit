@@ -1,0 +1,11 @@
+{
+	"recommendations": [
+		"svelte.svelte-vscode",
+		"ms-azuretools.vscode-docker",
+		"rust-lang.rust-analyzer",
+		"ms-vscode.vscode-typescript-next",
+		"dbaeumer.vscode-eslint",
+		"esbenp.prettier-vscode",
+		"bradlc.vscode-tailwindcss"
+	]
+}

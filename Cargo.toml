@@ -1,0 +1,17 @@
+[package]
+name = "mavio-core"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+axum = "0.7.6"
+axum-server = { version = "0.7.1", features = ["tls-rustls"] }
+serde = "1.0.210"
+serde_json = "1.0.128"
+tokio = { version = "1.40.0", features = ["full"] }
+tower-http = { version = "0.6.0", features = ["fs"] }
+tracing-subscriber = "0.3.18"
+
+[[bin]]
+name = "serve_bin"
+path = "app/main.rs"

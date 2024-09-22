@@ -1,0 +1,9 @@
+{
+	"editor.formatOnSave": true,
+	"svelte.enable-ts-plugin": true,
+	"workbench.editor.customLabels.patterns": {
+		"**/app/**/+page.*": "${dirname}/page",
+		"**/app/**/+layout.*": "${dirname}/layout",
+		"**/app/**/+error.*": "${dirname}/error"
+	}
+}

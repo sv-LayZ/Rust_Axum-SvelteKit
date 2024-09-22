@@ -1,0 +1,15 @@
+services:
+  # Dev env
+  web:
+    build:
+      context: backend
+      target: dev-env
+  # Needed services
+  postgres:
+  image: postgres
+  restart: true
+  ports:
+    - 5432:5001
+  shm_size: 128mb
+  environment:
+    POSTGRES_PASSWORD: cd42404d52ad55ccfa9aca4adc828aa5800ad9d385a0671fbcbf724118320619
